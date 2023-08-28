@@ -6,7 +6,7 @@ path_input_file = "data/geoc_inv.txt"
 selected_country_code = "US"
 period_start = 2011
 period_end = 2020
-path_output_file = "outputs/geoc_inv_US_2011_2020.csv"
+path_output_file = f"outputs/geoc_inv_US_{period_start}_{period_end}.csv"
 
 
 def filter_patent_data(data_path, country_code, period_start, period_end):
